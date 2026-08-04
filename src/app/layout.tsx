@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { DM_Sans, Raleway } from "next/font/google";
+import { site } from "@/content/site";
 import "./globals.css";
 
 const raleway = Raleway({
@@ -19,8 +20,19 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Van Bui | Brand & Social Media Strategist",
-  description: "Brand strategy, social media, founder storytelling, creative direction, and AI-powered content systems for tech and global brands.",
+  title: `Van Bui | ${site.title}`,
+  description: site.heroSummary,
+  icons: { icon: "/assets/vb-mark.svg" },
+  openGraph: {
+    title: `Van Bui | ${site.title}`,
+    description: site.heroSummary,
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: `Van Bui | ${site.title}`,
+    description: site.heroSummary,
+  },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

@@ -15,9 +15,10 @@ Open `http://localhost:3000`.
 
 ```bash
 npm run build
+npm start
 ```
 
-`next.config.ts` uses `output: "export"`, so the static build is written to `out/`.
+The app uses the default Next.js server output (static export is not enabled), so `next/image` optimization works in production.
 
 ## Deploy to Vercel
 
@@ -38,9 +39,10 @@ npm run build
 ## Important project notes
 
 - The old standalone browser preview was removed so Cursor has one clear source of truth: the Next.js project.
-- Gavel, Hostfully, and Samson Waters now use supplied real-work screenshots instead of the visible case-study placeholders.
-- The hero portrait and About image are still intentionally left as placeholders until personal photos are supplied.
+- Gavel, Hostfully, and Samson Waters use supplied real-work screenshots in the featured collage and case-study modals.
+- Hero and About photos live at `public/images/vi-portrait.png` and `public/images/vi-at-work.webp`.
 - Analytics are labelled carefully where organic and paid performance appear in the same source screenshot.
+- Optional before launch: social sharing image (1200×630) and a dedicated favicon export if you want something other than the SVG mark.
 
 Start with:
 

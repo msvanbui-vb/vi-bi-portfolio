@@ -32,10 +32,11 @@
 
 ### Global
 
-- [ ] Hero portrait, recommended 4:5
-- [ ] About image, recommended 4:5 or 3:4
+- [x] Hero portrait (`public/images/vi-portrait.png`)
+- [x] About image (`public/images/vi-at-work.webp`)
+- [x] VB mark SVG (`public/assets/vb-mark.svg`, used as favicon)
 - [ ] Social sharing image, 1200 × 630
-- [ ] Final favicon or approved VB mark
+- [ ] Dedicated favicon PNG/ICO, if required beyond the SVG mark
 
 ### Optional upgrades
 
