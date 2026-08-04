@@ -7,7 +7,17 @@ export function Hero() {
       <section className="hero section-shell" id="top">
         <div className="hero-copy">
           <p className="eyebrow">{site.title}</p>
-          <h1>{site.description}</h1>
+          <h1>
+            I make complex
+            <br />
+            products
+            <br />
+            <em>clear, human,</em>
+            <br />
+            and hard to
+            <br />
+            ignore.
+          </h1>
           <p className="hero-summary">{site.heroSummary}</p>
           <div className="hero-actions">
             <a className="button button-dark" href="#work">View selected work</a>
