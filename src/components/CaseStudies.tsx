@@ -68,7 +68,7 @@ export function CaseStudies() {
         <article>
           <p className="eyebrow">CuddlyNest</p>
           <h3>Faster global content without robotic output.</h3>
-          <p>AI-assisted systems for multi-language travel content, built with SEO and creative teams.</p>
+          <p>AI-assisted systems for multi-location travel content, built with SEO and creative teams.</p>
           <span>40% production-time reduction</span>
         </article>
         <article>
